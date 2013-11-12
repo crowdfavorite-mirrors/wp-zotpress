@@ -1,4 +1,4 @@
- <?php
+<?php
   /** Note that this example uses the php OAuth extension http://php.net/manual/en/book.oauth.php
     * but there are various php libraries that provide similar functionality.
     * OAuth acts over multiple pages, so we save variables we need to remember in $state in a temp file
@@ -47,7 +47,7 @@
     $zotero_authorize_endpoint = 'https://www.zotero.org/oauth/authorize';
   
     //require("../../../wp-includes/wp-db.php");
-    require("../../../../../wp-load.php");
+    require("../../../../../wp/wp-load.php");
     $wp_did_header = false;
     wp();
     global $wpdb;

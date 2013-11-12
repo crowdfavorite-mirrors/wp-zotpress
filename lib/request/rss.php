@@ -2,7 +2,7 @@
 
 	// Include WordPress
 	if (!isset( $include ) || $include == false)
-		require('../../../wp-load.php');
+		require('../../../../../wp/wp-load.php');
 
 	if (!defined('WP_USE_THEMES'))
 		define('WP_USE_THEMES', false);

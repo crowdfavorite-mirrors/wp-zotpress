@@ -20,7 +20,7 @@ if ( isset($_GET['go']) && $_GET['go'] == "true" )
     
     
     // Include WordPress
-    require('../../../../../wp-load.php');
+    require('../../../../../wp/wp-load.php');
     define('WP_USE_THEMES', false);
 
     // Prevent access to non-logged in users
