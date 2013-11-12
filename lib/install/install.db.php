@@ -28,7 +28,7 @@
                 UNIQUE KEY id (id)
             );";
             
-            require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
+            require_once(ABSPATH . 'wp/wp-admin/includes/upgrade.php');
             dbDelta($structure);
             
             update_option("Zotpress_main_db_version", $Zotpress_main_db_version);
@@ -48,7 +48,7 @@
                 UNIQUE KEY id (id)
             );";
             
-            require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
+            require_once(ABSPATH . 'wp/wp-admin/includes/upgrade.php');
             dbDelta($structure);
             
             update_option("Zotpress_oauth_db_version", $Zotpress_oauth_db_version);
@@ -87,7 +87,7 @@
                 UNIQUE KEY id (id)
             );";
             
-            require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
+            require_once(ABSPATH . 'wp/wp-admin/includes/upgrade.php');
             dbDelta($structure);
             
             update_option("Zotpress_zoteroItems_db_version", $Zotpress_zoteroItems_db_version);
@@ -115,7 +115,7 @@
                 UNIQUE KEY id (id)
             );";
             
-            require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
+            require_once(ABSPATH . 'wp/wp-admin/includes/upgrade.php');
             dbDelta($structure);
             
             update_option("Zotpress_zoteroCollections_db_version", $Zotpress_zoteroCollections_db_version);
@@ -140,7 +140,7 @@
                 UNIQUE KEY id (id)
             );";
             
-            require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
+            require_once(ABSPATH . 'wp/wp-admin/includes/upgrade.php');
             dbDelta($structure);
             
             update_option("Zotpress_zoteroTags_db_version", $Zotpress_zoteroTags_db_version);

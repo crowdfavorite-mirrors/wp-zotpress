@@ -225,7 +225,7 @@ if ( isset($_GET['go']) && $_GET['go'] == "true" )
                             jQuery(".zp-Loading-Initial", window.parent.document).hide();
                             <?php } else { ?>
                             jQuery('#zp-Import-Messages', window.parent.document).text("Import complete!");
-                            window.parent.location = "<?php echo ZOTPRESS_PLUGIN_URL; ?>../../../wp-admin/admin.php?page=Zotpress&account_id=" + api_user_id;
+                            window.parent.location = "<?php echo ZOTPRESS_PLUGIN_URL; ?>../../../wp/wp-admin/admin.php?page=Zotpress&account_id=" + api_user_id;
                             <?php } ?>
                         }
                         else // Show errors

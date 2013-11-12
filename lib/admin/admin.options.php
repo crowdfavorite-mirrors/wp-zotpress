@@ -50,7 +50,7 @@
                                         
                                         jQuery.doTimeout(1000,function() {
                                             jQuery('#zp-Zotpress-Options-Reset div.zp-Success').hide();
-                                            window.parent.location = "<?php echo ZOTPRESS_PLUGIN_URL; ?>../../../wp-admin/admin.php?page=Zotpress";
+                                            window.parent.location = "<?php echo ZOTPRESS_PLUGIN_URL; ?>../../../wp/wp-admin/admin.php?page=Zotpress";
                                         });
                                     }
                                     else // Show errors

@@ -7,13 +7,13 @@
         
         global $wpdb;
         
-        require_once( '../../../wp-admin/admin.php' );
+        require_once( '../../../wp/wp-admin/admin.php' );
         
         $title = __( 'Zotpress' );
         
         list( $display_version ) = explode( '-', $wp_version );
         
-        include( '../../../wp-admin/admin-header.php' );
+        include( '../../../wp/wp-admin/admin-header.php' );
         
         if (!defined('WP_USE_THEMES'))
             define('WP_USE_THEMES', false);
@@ -379,4 +379,4 @@
 
 
 
-<?php if (isset($_GET['iframe']) && trim($_GET['iframe']) == "true") { include( '../../../wp-admin/admin-footer.php' ); }  ?>
+<?php if (isset($_GET['iframe']) && trim($_GET['iframe']) == "true") { include( '../../../wp/wp-admin/admin-footer.php' ); }  ?>
