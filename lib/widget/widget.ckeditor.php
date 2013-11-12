@@ -3,7 +3,7 @@
     if (isset($_GET['iframe']) && trim($_GET['iframe']) == "true")
     {
         // Include WordPress
-        require('../../../wp-load.php');
+        require('../../../wp/wp-load.php');
         
         global $wpdb;
         
