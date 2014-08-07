@@ -115,7 +115,7 @@
                 UNIQUE KEY id (id)
             );";
             
-            require_once(ABSPATH . 'wp/wp-admin/includes/upgrade.php');
+            require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
             dbDelta($structure);
             
             update_option("Zotpress_zoteroCollections_db_version", $Zotpress_zoteroCollections_db_version);
